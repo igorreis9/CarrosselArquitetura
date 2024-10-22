@@ -28,6 +28,7 @@ footer {
     top: 53%;
     position: absolute;
     transform: translate(-50%, -50%);
+    border-radius: 15px;
 }
 
 .imagem img {
@@ -43,10 +44,13 @@ footer {
     margin: 5px;
     cursor: pointer;
     transition: .5s;
+    border-radius: 20px;
 }
 
 .bar:hover {
     background-color: #004C6D;
+    width: 50px;
+    height: 12px;
 }
 
 input {
@@ -59,6 +63,7 @@ input {
     left: 50%;
     display: flex;
     transform: translate(-50%);
+    border-radius: 20px;
 }
 
 #imagem2:checked~.navegacao {
