@@ -46,7 +46,7 @@ footer {
     cursor: pointer;
     transition: .5s;
     border-radius: 20px;
-    animation: navbar 1s normal linear;
+    animation: navbar 1.5s normal linear;
 }
 
 .bar:hover{
