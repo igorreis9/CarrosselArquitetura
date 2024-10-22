@@ -29,6 +29,7 @@ footer {
     position: absolute;
     transform: translate(-50%, -50%);
     border-radius: 15px;
+    box-shadow: 16px 15px 39px 19px rgba(0,0,0,0.303);
 }
 
 .imagem img {
