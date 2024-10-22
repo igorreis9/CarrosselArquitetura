@@ -68,11 +68,11 @@ input {
 .imagens {
     display: flex;
     height: 100%;
-    width: 700%;
+    width: 800%;
 }
 
 .imagem {
-    width: 14.2857142857%;
+    width: 12.5%;
     transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
 
 }
@@ -83,25 +83,28 @@ input {
 }
 
 #imagem2:checked~.img1 {
-    margin-left: -14.2857142857%;
+    margin-left: -12.5%;
 }
 
 #imagem3:checked~.img1 {
-    margin-left: -28.5714285714%;
+    margin-left: -25%;
 }
 
 #imagem4:checked~.img1 {
-    margin-left: -42.8571428571%;
+    margin-left: -37.5%;
 }
 
 #imagem5:checked~.img1 {
-    margin-left: -57.1428571428%;
+    margin-left: -50%;
 }
 
 #imagem6:checked~.img1 {
-    margin-left: -71.4285714285%;
+    margin-left: -62.5%;
 }
 
 #imagem7:checked~.img1 {
-    margin-left: -85.7142857142%;
+    margin-left: -75%;
+}
+#imagem8:checked~.img1 {
+    margin-left: -87.5%;
 }
